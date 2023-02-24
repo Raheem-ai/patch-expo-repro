@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "dev": "expo start --dev-client",
+    "build": "eas build --profile patch-expo-repro",
+    "update": "eas update --branch patch-expo-repro"
+  },
+  "dependencies": {
+    "expo": "^47.0.0",
+    "expo-updates": "~0.15.6",
+    "react": "18.1.0",
+    "react-native": "0.70.5"
+  },
+  "devDependencies": {
+    "@types/react": "~18.0.24",
+    "@types/react-native": "~0.70.6",
+    "eas-cli": "^3.5.0",
+    "typescript": "^4.6.3"
+  },
+  "name": "patch-expo-repro",
+  "version": "1.0.0"
+}

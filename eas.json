@@ -1,0 +1,15 @@
+{
+    "cli": {
+      "version": "^3.5.0"
+    },
+    "build": {
+      "patch-expo-repro": {
+        "channel": "patch-expo-repro",
+        "distribution": "internal",
+        "env": {
+          "YARN_ENABLE_IMMUTABLE_INSTALLS": "false"
+        },
+        "expoCli": "6.2.1"
+      }
+    }
+}
